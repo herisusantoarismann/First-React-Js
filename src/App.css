@@ -1,0 +1,147 @@
+.header {
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(#8a2387, #e94057, #f27121);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.banner {
+  position: relative;
+  height: 300px;
+  margin: 20px;
+  color: #fff;
+}
+
+.banner img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 29px 13px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 0px 0px 29px 13px rgba(0, 0, 0, 0.32);
+  box-shadow: 0px 0px 29px 13px rgba(0, 0, 0, 0.32);
+  animation: logo 2s infinite;
+}
+
+.banner p {
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  position: relative;
+  text-align: right;
+  overflow: hidden;
+  background: rgb(255, 255, 255, 0);
+  color: #fff;
+}
+
+.logo {
+  float: left;
+  list-style: none;
+}
+
+.logo .mLogo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.navbar li {
+  display: inline-block;
+  overflow: hidden;
+  list-style: none;
+  margin-right: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar li .navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #000;
+  -webkit-box-shadow: 0px 0px 23px -5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 23px -5px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 23px -5px rgba(0, 0, 0, 1);
+}
+
+.container h2,
+.container p {
+  text-align: center;
+  color: #fff;
+}
+
+.container p {
+  font-size: 20px;
+}
+
+.laptop {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.projectImg {
+  position: absolute;
+  width: 721px;
+  height: 403px;
+  background: url("./img/project1.png");
+  background-size: 100% auto;
+  transform: translate(85px, -580px);
+  background-position: top center;
+  transition: background-position 5s ease-out 0.5s;
+  cursor: pointer;
+}
+
+.projectImg:hover {
+  background-position: bottom center;
+  transition: background-position 5s linear 0s;
+}
+
+.link_github {
+  text-decoration: none;
+}
+
+.link_github p {
+  font-size: 20px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact img {
+  width: 100px;
+  margin-right: 40px;
+  color: #fff;
+}
+
+@keyframes logo {
+  0% {
+    -webkit-box-shadow: 0px 0px 29px 13px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0px 0px 29px 13px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 0px 29px 13px rgba(0, 0, 0, 0.32);
+  }
+  100% {
+    -webkit-box-shadow: 0px 0px 29px 13px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 0px 0px 29px 13px rgba(0, 0, 0, 0.62);
+    box-shadow: 0px 0px 29px 13px rgba(0, 0, 0, 0.62);
+  }
+}
